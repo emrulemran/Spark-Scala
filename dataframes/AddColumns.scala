@@ -7,6 +7,8 @@ import org.apache.spark.sql.Column
 object AddColumns {
   def main(args: Array[String]): Unit = {
 
+    // a comment
+
     val spark: SparkSession = SparkSession.builder()
       .master("local[1]")
       .appName("sparklearning.com")
